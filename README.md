@@ -11,5 +11,5 @@ https://blooming-castle-13896.herokuapp.com/
 
 Example output (size in bytes):
 ```
-{ "size": "4711" }
+{ "size": 4711 }
 ```
