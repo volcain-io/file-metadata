@@ -6,7 +6,7 @@ const path = require('path')
 
 const app = express()
 const port = process.env.PORT || 8080
-const maxFileSize = 1024 * 1024 // 2 MB
+const maxFileSize = 2 * 1024 * 1000 // 2 MB
 const mimeTypes = [ 'text/css', 'text/html', 'text/plain', 'image/png', 'image/jpeg', 'image/gif', 'image/svg+xml' ]
 
 const storage = multer.diskStorage( {
